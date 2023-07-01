@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import "./MovieCard.scss"
 
 const MovieCard = (props) => {
   const {data} = props;
@@ -10,7 +11,7 @@ const MovieCard = (props) => {
         </div>
         <div className="card-bottom">
           <div className="card-info">
-            <h3>{data.Title}</h3>
+            <h4>{data.Title}</h4>
             <p>{data.year}</p>
           </div>
         </div>

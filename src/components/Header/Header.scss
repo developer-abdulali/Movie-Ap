@@ -6,7 +6,7 @@
     padding: 0 40px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo{
     color: $font-primary;
@@ -15,6 +15,6 @@
 }
 .user-image,
 .user-image img{
-    width: 55px;
+    width: 65px;
     height: 38px;
 }
