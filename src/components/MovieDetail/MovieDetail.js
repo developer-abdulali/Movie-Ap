@@ -28,16 +28,16 @@ const MovieDetail = () => {
         <div className="movie-title">{data.Title}</div>
         <div className="movie-rating">
           <span>
-            IMDB Rating <FontAwesomeIcon icon={faStar} /> : {data.imdbRating}
+            IMDB Rating <FontAwesomeIcon icon={faStar} className="star" /> : {data.imdbRating}
           </span>
           <span>
-            IMDB Votes <FontAwesomeIcon icon={faThumbsUp} /> : {data.imdbVotes}
+            IMDB Votes <FontAwesomeIcon icon={faThumbsUp} className="thumb" /> : {data.imdbVotes}
           </span>
           <span>
-            Runtime <FontAwesomeIcon icon={faFilm} /> : {data.Runtime} 
+            Runtime <FontAwesomeIcon icon={faFilm} className="film" /> : {data.Runtime} 
           </span>
           <span className="imdb">
-            IMDB Rating <FontAwesomeIcon icon={faCalendar} /> : {data.Year}
+            IMDB Rating <FontAwesomeIcon icon={faCalendar} className="calendar" /> : {data.Year}
           </span>
         </div>
 
