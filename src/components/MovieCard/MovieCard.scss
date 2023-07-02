@@ -2,6 +2,11 @@
 .card-item{
     background-color: $font-secondary;
     cursor: pointer;
+    transition: all 0.3s;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
 }
 .card-top{
     height: 300px;
