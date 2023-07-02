@@ -35,21 +35,21 @@ const MovieDetail = () => {
             <div className="movie-title">{data.Title}</div>
             <div className="movie-rating">
               <span>
-                IMDB Rating <FontAwesomeIcon icon={faStar} className="star" /> :{" "}
+                IMDB Rating <FontAwesomeIcon icon={faStar} className="star" /> :
                 {data.imdbRating}
               </span>
               <span>
-                IMDB Votes{" "}
-                <FontAwesomeIcon icon={faThumbsUp} className="thumb" /> :{" "}
+                IMDB Votes
+                <FontAwesomeIcon icon={faThumbsUp} className="thumb" /> :
                 {data.imdbVotes}
               </span>
               <span>
-                Runtime <FontAwesomeIcon icon={faFilm} className="film" /> :{" "}
+                Runtime <FontAwesomeIcon icon={faFilm} className="film" /> :
                 {data.Runtime}
               </span>
               <span className="imdb">
-                IMDB Rating{" "}
-                <FontAwesomeIcon icon={faCalendar} className="calendar" /> :{" "}
+                IMDB Rating
+                <FontAwesomeIcon icon={faCalendar} className="calendar" /> :
                 {data.Year}
               </span>
             </div>
@@ -79,7 +79,7 @@ const MovieDetail = () => {
             </div>
           </div>
           <div className="section-right">
-            <img src={data.Poster} alt={data.Title} />
+            <img src={data.Poster} alt={data.Title} className="poster" />
           </div>
         </>
       )}

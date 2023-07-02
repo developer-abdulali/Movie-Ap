@@ -1,17 +1,51 @@
 @import "../src/common/colors.scss";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    // font-family: "Open Sans, sans-serif";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-body{
-    background-color: $primary-color;
+body {
+  background-color: $primary-color;
 }
-.container{
-    margin: 0 40px;
+.container {
+  margin: 0 40px;
 }
+
+@media (max-width: 767px) {
+  /* Styles for screens up to 767px wide */
+  .movie-section {
+    /* Example mobile styles */
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+
+  .movie-title {
+    /* Example mobile styles */
+    font-size: 30px;
+  }
+ 
+
+  /* Add more styles as needed for mobile */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for screens between 768px and 991px wide (common tablet sizes) */
+  .movie-section {
+    /* Example tablet styles */
+    padding: 30px 0px;
+  }
+
+  .movie-title {
+    /* Example tablet styles */
+    font-size: 36px;
+  }
+
+  /* Add more styles as needed for tablets */
+}
+
+/* You can add more media queries for larger screens if desired */
