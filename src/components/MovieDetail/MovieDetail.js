@@ -36,7 +36,7 @@ const MovieDetail = () => {
           <span>
             Runtime <FontAwesomeIcon icon={faFilm} /> : {data.Runtime} 
           </span>
-          <span>
+          <span className="imdb">
             IMDB Rating <FontAwesomeIcon icon={faCalendar} /> : {data.Year}
           </span>
         </div>
