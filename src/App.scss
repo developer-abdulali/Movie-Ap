@@ -18,7 +18,7 @@ body {
 
 @media (max-width: 767px) {
   /* Styles for screens up to 767px wide */
-  .movie-section {
+  .movie-section { 
     /* Example mobile styles */
     flex-direction: column;
     padding: 20px 0px;
@@ -28,24 +28,21 @@ body {
     /* Example mobile styles */
     font-size: 30px;
   }
- 
-
-  /* Add more styles as needed for mobile */
+  .poster{
+    margin-top: 20px
+  }
 }
 
+/* Styles for screens between 768px and 991px wide (common tablet sizes) */
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Styles for screens between 768px and 991px wide (common tablet sizes) */
   .movie-section {
     /* Example tablet styles */
     padding: 30px 0px;
   }
 
+  /* Example tablet styles */
   .movie-title {
-    /* Example tablet styles */
     font-size: 36px;
   }
-
-  /* Add more styles as needed for tablets */
+  
 }
-
-/* You can add more media queries for larger screens if desired */

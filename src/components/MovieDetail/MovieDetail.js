@@ -36,7 +36,9 @@ const MovieDetail = () => {
             <div className="movie-rating">
               <span>
                 IMDB Rating <FontAwesomeIcon icon={faStar} className="star" /> :
+                <span className="rating">
                 {data.imdbRating}
+                </span>
               </span>
               <span>
                 IMDB Votes
